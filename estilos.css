@@ -1,0 +1,169 @@
+html{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%
+	font-family: arial, helvetica,sans-serif;
+	background-image: radial-gradient(circle at 17.05% 30.98%, #ff9b96 0, #ff939d 7.14%, #ff89a4 14.29%, #ff80ab 21.43%, #ff76b3 28.57%, #ff6cba 35.71%, #ff63c2 42.86%, #f05bca 50%, #dd55d2 57.14%, #c753db 64.29%, #ad54e4 71.43%, #8e57ec 78.57%, #655cf4 85.71%, #0460fa 92.86%, #0065ff 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+
+
+header{
+	text-align: center;
+	padding: 20px 0;
+	font-size: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+header img{
+	margin-right: 8px;
+}
+
+header span{
+	color: #000000;
+}
+
+
+.contenedor{
+	margin: 0 auto;
+	width: 90%;
+}
+
+div.hero {
+	display: flex;
+	justify-content: center;
+}
+
+.hero img{
+	width: 65vw;
+	height: 75vh;
+
+}
+
+.productos {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.productos h2{
+	text-align: center;
+	color: black;
+	margin: 30px 0px;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.productos span{
+	color:white;
+}
+
+.lista-Productos{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+ul.lista-Productos{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+ul.lista-Productos li img{
+	width: 270px;
+	height: 317px;
+	border-radius: 10px;
+	border: 5px solid #9932CC;
+	-webkit-transition:all .6s ease;
+}
+
+ul.lista-Productos li{
+	float: left;
+	width: 28%;
+	margin: 20px;
+	text-align: center;
+}
+
+ul.lista-Productos li img:hover{
+	border: 5px solid #FF1493;
+	-webkit-transform:scale(1.07);
+	
+
+}
+
+ul.lista-Productos p{
+	font-size: 25px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 10px;
+}
+
+ul.lista-Productos span{
+	font-size: 35px;
+	color: #00CD66;
+}
+
+.boton{
+	background-color: #00EE76;
+	padding: 10px 30px;
+	display: inline-block;
+	font-size: 17px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	text-transform: uppercase;
+
+}
+
+.boton:hover{
+	background-color: #00CD66;
+}
+
+
+h1{
+	font-size: 50px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.clear {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.pie{
+	width:100%;
+	height: 100px;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
